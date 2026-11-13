@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+anaconda_projects/
+.vscode/
+.venv/
+.pytest_cache/
+.DS_Store
+
+# NOTE: churn_pipeline.pkl, model_metrics.json, test_scored.csv and
+# Telco-Customer-Churn.csv are intentionally NOT ignored. The deployed app needs them.
